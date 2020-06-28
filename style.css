@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  
+  }
+  body{
+    font-family: sans-serif;
+  }
+  /*######### start headsection ##############*/
+  .bak_img{
+    background: linear-gradient(#0000003d,#0000003d),url(img/header.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
+  .templete{overflow: hidden;}
+  .logo {
+      float: left;
+      width: 300px;
+  }
+  .logo h1 {
+      margin-top: 24px;
+      margin-left: 21px;
+      color: #fff;
+  }
+  .logo span{color: #2DC997}
+  .menu {
+      float: right;
+      width: 681px;
+      margin-top: 30px;
+  }
+  .menu ul {
+      display: inline-block;
+      margin-left: 35px;
+  }
+  .menu ul li{list-style: none;
+   }
+   .menu ul li a {
+      text-decoration: none;
+      color: #fff;
+  }
+   .menu ul li a:hover{
+  border-bottom: 7px solid #2DC997;
+   }
+  .hed_title{width: 100%}
+  .hed_title h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 84px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 50px;
+  }
+  #active{
+    border-bottom: 7px solid #2DC997;
+  }
+  .hed_des{width:100%}
+  .hed_des h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+  }
+  .click {
+      text-align: center;
+      margin-top: 104px;
+      height: 100px;
+  
+  }
+  .click p {
+      width: 150px;
+      text-align: center;
+      margin-left: 573px;
+      margin-top: 10px;
+      padding: 12px 23px;
+      border: 2px solid;
+      color: #fff;
+      border-radius: 28px;
+  }
+  .click p:hover{
+    background: #2DC997;
+    transition: 2s;
+    border-color: #2DC997;
+  }
+      .click a{text-decoration: none;
+        color: #fff;
+  
+      }
+  /*######### END headsection ##############*/
+  
+  
+  
+  /*######### Start About section ##############*/
+  .about{
+    margin-top: 100px;
+  }
+  .about_des{
+    width: 700px;
+    float: left;
+    margin: 40px 20px;
+  }
+  .about_hed{}
+    .about_hed h1 {
+        text-align: center;
+        font-size: 45px;
+        font-family: sans-serif;
+        color: #715151;
+    }
+  
+    .about_des p {
+        text-align: justify;
+        text-align: center;
+        margin-right: 113px;
+        text-align: justify;
+        font-family: sans-serif;
+        color: #716666;
+    }
+  .about_icon{width: 700px;
+    margin-left: 15px;
+    margin-bottom:15px;
+  
+  }
+  .about_icon h3 {
+      float: right;
+      margin-right: 424px;
+      margin-top: 12px;
+      color: #7d7070;
+  }
+  .about_icon p {
+      float: right;
+      margin-top: -16px;
+      width: 488px;
+  }
+  .icon_size {
+      width: 100px;
+      text-align: center;
+      float: left;
+  
+  }
+  .border {
+      border: 2px solid #2DC997;
+      width: 45px;
+      border-radius: 51px;
+      padding: 11px;
+      font-size: 36px;
+      color: #2DC997;
+  }
+  .img_about{float: right;
+   width: 600px;
+  }
+  .img_about img{width:100%;
+   height:500px;
+  }
+  
+  .
+  .
+  .
+  /*######### End About section ##############*/
+  
+  
+  
+  /*######### Facts section ##############*/
+  .facts{margin-top:70px;}
+  .facts_des h4 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 15px;
+  }
+  .facts_des h4 {
+    text-align: center;
+    margin-top: 85px;
+  }
+  .facts_des p{text-align: center;}
+  .facts_point {
+      float: left;
+      width: 200px;
+      margin-left: 125px;
+      margin-top: 50px;
+  }
+  .facts_point h2 {
+      font-size: 53px;
+      color: #2dc997;
+  }
+  .facts_point p {
+      margin-left: 14px;
+      color: #704f4f;
+      margin-bottom: 100px;
+  }
+  
+  
+  /*######### End Facts section ##############*/
+  
+  
+  /*########## SERVICE SECTION ###############*/
+  .service_sec{
+  
+  }
+  .ser_hed{}
+  .ser_hed h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+  .ser_des{}
+  .ser_des p{text-align: center;
+    color: #7d7070;
+  
+  }
+  .ser_pro{margin-top: 60px;padding: 5px;}
+  .ser_item{width: 350px;float: left;border: 1px solid;
+  
+  }
+  .ser_item:hover{
+    transform: scaleX(1.1);
+    transition: 2s;
+  }
+  .ser_icon {
+    /* text-align: center; */
+    margin-left: 100px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    border: 2px solid #76DCBB;
+    padding: 19px;
+    border-radius: 40px;
+    background: #2DC997;
+    color: #fff;
+  }
+  .ser_icon:hover{
+    background: #fff;
+    color: #2DC997;
+    transition:1.3s;
+  }
+  
+  .ser_item {
+    width: 300px;
+    float: left;
+    border: 1px solid #b9b4b438;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 73px;
+    background: #FAFAFA;
+    border-radius: 7px;
+    box-shadow: 0px 2px 6px 1px;
+  }
+  .ser_item h3{text-align: center;
+    margin-bottom: 10px;
+  
+  }
+  .ser_item p{text-align: center;margin-bottom: 10px;}
+  
+  
+  /*########## SERVICE SECTION ###############*/
+  
+  .enr_sec {
+    background: #2dc997;
+    margin-bottom: 58px;
+    width: 1156px;
+    margin-left: 72px;
+    border: 1px solid #2DC997;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-top: 7px;
+    border-radius: 8px;
+  }
+  .enr_sec h3 {
+    text-align: center;
+    padding: 5px;
+  }
+  .enr_sec p {
+    text-align: center;
+    padding: 8px;
+  }
+  .reg p {
+    background: orangered;
+    width: 232px;
+    margin: auto;
+    padding: 12px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    color: #fff;
+  }
+  .reg p:hover{
+    background: #2DC997;
+    transition: 2s;
+    box-shadow:inset 1px 2px 2px 3px black;
+  }
+  
+  .team_sec {
+    width: 284px;
+    float: left;
+    margin-left: 53px;
+    margin-top: 25px;
+  }
+  .team_sec img {
+    
+    
+    padding: 5px;
+    border-radius: 173px;
+  }
+  .team_sec h4 {
+    text-align: center;
+    font-family: arial;
+    color: #b57d7d;
+    margin-top: 10px;
+    margin-right: 85px;
+    margin-bottom: 7px;
+  }
+  .team_sec p {
+    text-align: center;
+    font-style: italic;
+    margin-right: 85px;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  .social_icon {
+    float: left;
+    margin-left: 31px;
+    font-size: 21px;
+  }
+  .social_icon .icon {
+    margin-left: 8px;
+  }
+  .icon{
+    padding: 5px;
+  }
+  .main_team{
+    margin-bottom: 50px;
+  }
+  .icon:hover{
+    color: #2DC997;
+    transition: 1s;
+    background:orangered;
+  }
+  
+  .contact{
+  
+  }
+  .main_contact{
+     margin-top: 30px;
+     
+  }
+  .main_contact iframe {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .main_footer{
+    background: #343B40;
+    padding: 20px;
+  
+  }
+  .main_footer p{
+    text-align: center;
+    color: #FAFAFA;
+  }
+  .main_footer h3{
+    text-align: center;
+    color: #fff;
+  }
+  .main_footer span{
+    color: #317E69;
+  }
+  
+     
